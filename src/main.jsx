@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import About from './components/About'
 import Timeline from './components/Timeline'
+import Marquee from './components/Marquee'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Hero />
         <About />
         <Timeline />
+        <Marquee />
       </main>
       <Footer />
     </div>
