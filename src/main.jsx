@@ -9,7 +9,7 @@ import About from './components/About'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
-    <div className='px-6'>
+    <div className='mx-auto px-6 max-w-7xl'>
       <main className='pt-20'>
         <Hero />
         <About />

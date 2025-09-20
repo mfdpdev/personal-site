@@ -16,6 +16,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+.hero-shape {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 140px; /* Membuat kanan bawah lebih besar */
+}
+
 .hamburger-active > span:nth-child(1) {
   @apply rotate-45;
 }

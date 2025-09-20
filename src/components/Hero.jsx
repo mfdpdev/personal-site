@@ -7,13 +7,12 @@ export default function Hero(){
     <>
       <div className="flex flex-wrap mt-6">
         <div className="sm:flex-1">
-          <div className="space-y-4 text-slate-700 p-6 w-full bg-slate-300 rounded-3xl rounded-bl-none">
+          <div className="space-y-2 text-slate-700 p-6 w-full bg-slate-300 hero-shape">
             <h3 className="text-2xl">Hello! World</h3>
             <h1 className="text-4xl font-bold">I'm Muhammad Firmandani Pramoedya</h1>
-            <h2 className="text-2xl text-red-500">{text}</h2>
-            <p className="text-md">
-              I am passionate about software development, design, web development, mobile development, and exploring new technologies.
-              If you're interested in collaborating or creating something cool together, let's connect and build something amazing!
+            <h2 className="text-4xl text-red-500 font-bold">{text}</h2>
+            <p className="mt-6 text-md w-4/5">
+              I'm passionate about software and web development, design, mobile apps, and exploring new technologies. Let's connect and create something amazing together!
             </p>
           </div>
           <div className="text-slate-300 mt-6 w-full">
@@ -34,7 +33,7 @@ export default function Hero(){
             </div>
           </div>
         </div>
-        <div className="sm:flex-1">
+        <div className="sm:flex-1 lg:flex-2">
         </div>
       </div>
     </>

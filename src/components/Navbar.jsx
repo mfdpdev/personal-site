@@ -18,8 +18,8 @@ export default function Navbar(){
   }
   return (
     <>
-      <nav className="fixed w-full h-40">
-        <div className="absolute w-full bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
+      <nav className="fixed w-full flex justify-center">
+        <div className="mx-auto absolute w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
           <div>
             Logo
           </div>
