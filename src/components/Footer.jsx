@@ -10,7 +10,7 @@ export default function Footer(){
           <div className="hover:bg-red-500 h-12 w-12 bg-slate-600 flex justify-center items-center rounded-lg"> icon </div>
         </div>
 
-        <p className="text-slate-600">2025 Designed & Development by Dannn</p>
+        <p className="text-slate-600">2025 Designed & Development by Muhammad Firmandani Pramoedya</p>
       </div>
     </>
   )

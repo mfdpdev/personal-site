@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import About from './components/About'
+import Timeline from './components/Timeline'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <main className='pt-20'>
         <Hero />
         <About />
+        <Timeline />
       </main>
       <Footer />
     </div>

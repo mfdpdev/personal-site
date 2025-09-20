@@ -41,7 +41,7 @@ export default function Navbar(){
           </div>
 
           <span className="border-b-1 border-slate-800 w-full absolute left-0 bottom-0"></span>
-          <div ref={navItem} className="shadow-xl shadow-slate-900 h-0 overflow-hidden absolute sm:hidden bg-slate-900 flex items-center w-full px-8 left-0 top-full transition-all duration-300">
+          <div ref={navItem} className="h-0 overflow-hidden absolute sm:hidden bg-slate-900 flex items-center w-full px-8 left-0 top-full transition-all duration-300">
             <ul className="flex flex-col space-y-6">
               <li>
                 <a href="#" className="hover:text-red-500" > Homepage </a>
