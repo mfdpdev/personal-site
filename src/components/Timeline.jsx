@@ -43,6 +43,28 @@ export default function Timeline(){
                   <div className="text-sm text-gray-400 mt-1">2025</div>
                 </div>
               </div>
+              <div className="flex items-start">
+                <div className="w-4 h-4 bg-slate-100 relative rounded-full">
+                  <div className="w-2 h-2 absolute top-1/2 -translate-y-1/2 left-1/2 transform -translate-x-1/2 bg-slate-900 rounded-full">
+                  </div>
+                </div>
+                <div className="ml-6">
+                  <div className="text-xl font-semibold">Magang</div>
+                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
+                  <div className="text-sm text-gray-400 mt-1">2025</div>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="w-4 h-4 bg-slate-100 relative rounded-full">
+                  <div className="w-2 h-2 absolute top-1/2 -translate-y-1/2 left-1/2 transform -translate-x-1/2 bg-slate-900 rounded-full">
+                  </div>
+                </div>
+                <div className="ml-6">
+                  <div className="text-xl font-semibold">Magang</div>
+                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
+                  <div className="text-sm text-gray-400 mt-1">2025</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
