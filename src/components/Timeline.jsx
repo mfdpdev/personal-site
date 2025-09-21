@@ -17,7 +17,7 @@ export default function Timeline(){
         <div className="hidden lg:block lg:flex-1">
         </div>
         <div className="sm:flex-3">
-          <div className="relative">
+          <div className="relative -z-1">
             <div className="left-[7px] absolute border-l-1 border-r-1 border-slate-100 h-full">
             </div>
             <div className="space-y-8">

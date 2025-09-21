@@ -18,8 +18,8 @@ export default function Navbar(){
   }
   return (
     <>
-      <nav className="fixed w-full flex justify-center">
-        <div className="mx-auto absolute w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
+      <nav className="fixed h-auto bg-slate-900 w-full flex justify-center">
+        <div className="fix w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
           <div>
             Logo
           </div>
@@ -54,7 +54,6 @@ export default function Navbar(){
               <span className="origin-bottom-left block w-[30px] h-[2px] bg-white transition duration-300"></span>
             </button>
           </div>
-
           <span className="border-b-1 border-slate-800 w-full absolute left-0 bottom-0"></span>
           <div ref={navItem} className="h-0 overflow-hidden absolute sm:hidden bg-slate-900 flex items-center w-full px-8 left-0 top-full transition-all duration-300">
             <ul className="flex flex-col space-y-6">
