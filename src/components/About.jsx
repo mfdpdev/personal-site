@@ -1,7 +1,7 @@
 export default function About(){
   return (
     <>
-      <div className="mt-6 text-slate-300 flex gap-6 flex-wrap w-full">
+      <div className="mt-12 text-slate-300 flex gap-6 flex-wrap w-full">
         <div className="sm:flex-3">
           <h1 className="text-xl mb-10 font-bold">About Me</h1>
           <div className="space-y-9">

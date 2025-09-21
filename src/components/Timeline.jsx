@@ -8,7 +8,7 @@ export default function Timeline(){
   ];
   return (
     <>
-      <div className="mt-6 flex justify-start flex-wrap gap-6 text-slate-300">
+      <div className="mt-12 flex justify-start flex-wrap gap-6 text-slate-300">
         <div className="sm:flex-3">
           <h1 className="font-bold text-3xl">Test</h1>
           <p className="mt-2"> I'm deep into programming languages like JavaScript, Python, and React, and I enjoy problem-solving like a puzzle master.</p>

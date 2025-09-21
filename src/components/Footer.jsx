@@ -4,7 +4,7 @@ import { faLinkedin, faGithub, faInstagram, faGoogle } from '@fortawesome/free-b
 export default function Footer(){
   return (
     <>
-      <div className="w-full flex flex-col items-center bg-slate-900 text-slate-300 py-8 mt-6">
+      <div className="w-full flex flex-col items-center bg-slate-900 text-slate-300 py-8 mt-12">
         <h1 className="text-2xl font-bold text-center">Thanks for stopping by! </h1>
         <p className="font-light text-center">Let's stay connected, reach out to me on my social media!</p>
         <div className="w-full flex mt-6 mb-12 flex-wrap justify-center gap-4">

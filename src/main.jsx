@@ -9,6 +9,8 @@ import Timeline from './components/Timeline'
 import Marquee from './components/Marquee'
 import Projects from './components/Projects'
 import Topic from './components/Topic'
+import Certificate from './components/Certificate'
+import Uses from './components/Uses'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,7 +22,9 @@ createRoot(document.getElementById('root')).render(
         <Timeline />
         <Marquee />
         <Projects />
+        <Certificate />
         <Topic />
+        <Uses />
       </main>
       <Footer />
     </div>

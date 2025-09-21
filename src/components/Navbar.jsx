@@ -18,7 +18,7 @@ export default function Navbar(){
   }
   return (
     <>
-      <nav className="fixed h-auto bg-slate-900 w-full flex justify-center">
+      <nav className="fixed z-1 h-auto bg-slate-900 w-full flex justify-center">
         <div className="fix w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
           <div>
             Logo
@@ -32,17 +32,17 @@ export default function Navbar(){
               </li>
               <li>
                 <a href="#" className="hover:text-blue-400" >
-                  Contact Me
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-400" >
                   Curriculum Vitae
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-blue-400" >
                   Projects
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-400" >
+                  Uses
                 </a>
               </li>
             </ul>
