@@ -24,10 +24,25 @@ export default function Navbar(){
             Logo
           </div>
           <div className="hidden sm:block">
-            <ul className="flex space-x-4">
+            <ul className="flex space-x-6">
               <li>
                 <a href="#" className="hover:text-blue-400" >
                   Homepage
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-400" >
+                  Contact Me
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-400" >
+                  Curriculum Vitae
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-blue-400" >
+                  Projects
                 </a>
               </li>
             </ul>
