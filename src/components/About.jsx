@@ -14,49 +14,49 @@ export default function About(){
         <div className="sm:flex-3">
           <h1 className="text-xl mb-10 font-bold">Skills</h1>
           <div className="flex gap-5 flex-wrap">
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               HTML
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               CSS
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Javascript
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               PHP
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Python
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Database
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Git
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               React
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Laravel
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Typescript
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Docker
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               RESTful API
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               OOP
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Flutter
             </div>
-            <div className="cursor-pointer px-3 py-1 bg-red-500 text-red-300 rounded font-bold">
+            <div className="cursor-pointer px-3 py-1 bg-red-500 text-slate-300 rounded font-bold">
               Linux
             </div>
           </div>

@@ -1,3 +1,6 @@
+import { faAward } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Certificate(){
   return (
     <>
@@ -8,26 +11,26 @@ export default function Certificate(){
         <div className="mt-8 gap-5 grid grid grid-cols-1 lg:grid-cols-2">
           <div className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
             <div className="">
-              <div className="flex justify-between mb-2">
-                <h1 className="text-lg font-bold">
+              <div className="font-bold flex justify-between mb-2 items-center">
+                <h1 className="text-lg">
                   Belajar Backend Javascript
                 </h1>
-                <div>
+                <div className="rounded-md w-fit px-2 py-1 bg-red-500">
                   2024
                 </div>
               </div>
               <div>
-                <div className="flex gap-4">
-                  icon
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faAward} />
                   <p>Dicoding</p>
                 </div>
-                <div className="flex gap-4">
-                  icon
-                  <p>2022 - 2025</p>
+                <div className="mt-2 ">
+                  <p>Create something.</p>
                 </div>
               </div>
-              <div className="hover:bg-red-400 hover:animate-bounceUpDown rounded-lg mt-6 w-fit px-6 py-2 bg-red-500">
-                <button>
+              <div className="hover:bg-red-500 hover:animate-bounceUpDown rounded-lg mt-6 w-fit px-4 py-2 bg-slate-700">
+                <button className="flex items-center gap-2">
+                  <FontAwesomeIcon icon={faAward} />
                   Certificate
                 </button>
               </div>

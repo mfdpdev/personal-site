@@ -19,10 +19,10 @@ export default function Navbar(){
   return (
     <>
       <nav className="fixed z-1 h-auto bg-slate-900 w-full flex justify-center">
-        <div className="fix w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between px-12 py-6">
-          <div>
-            Logo
-          </div>
+        <div className="fix w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between items-center px-12 py-6">
+          <a href="" className="font-bold px-3 py-1 border-1 rounded-lg">
+            Mfdp
+          </a>
           <div className="hidden sm:block">
             <ul className="flex space-x-6">
               <li>
