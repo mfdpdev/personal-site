@@ -12,7 +12,9 @@ export default function Timeline(){
         <div className="sm:flex-3">
           <h1 className="font-bold text-3xl">Test</h1>
           <p className="mt-2"> I'm deep into programming languages like JavaScript, Python, and React, and I enjoy problem-solving like a puzzle master.</p>
-          <p>Image</p>
+          <div>
+            Test
+          </div>
         </div>
         <div className="hidden lg:block lg:flex-1">
         </div>

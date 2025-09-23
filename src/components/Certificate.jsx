@@ -11,11 +11,11 @@ export default function Certificate(){
         <div className="mt-8 gap-5 grid grid grid-cols-1 lg:grid-cols-2">
           <div className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
             <div className="">
-              <div className="font-bold flex justify-between mb-2 items-center">
-                <h1 className="text-lg">
+              <div className="flex flex-wrap gap-y-2 justify-between mb-2 items-center">
+                <h1 className="text-lg font-bold">
                   Belajar Backend Javascript
                 </h1>
-                <div className="rounded-md w-fit px-2 py-1 bg-red-500">
+                <div className="rounded-md w-fit px-2 py-1 bg-slate-700">
                   2024
                 </div>
               </div>

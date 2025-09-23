@@ -5,7 +5,7 @@ export default function Hero(){
   const text = "</Developer>"
   return (
     <>
-      <div className="flex flex-wrap mt-6">
+      <div className="flex flex-wrap mt-6 gap-8">
         <div className="sm:flex-1">
           <div className="space-y-2 text-slate-700 p-6 w-full bg-slate-300 hero-shape">
             <h3 className="text-2xl">Hello! World</h3>
@@ -33,7 +33,9 @@ export default function Hero(){
             </div>
           </div>
         </div>
-        <div className="sm:flex-1 lg:flex-2">
+        <div className="sm:flex-1 lg:flex-2 w-full">
+          <div className='lg:w-1/2 bg-slate-700 lg:mx-auto py-12'>
+          </div>
         </div>
       </div>
     </>

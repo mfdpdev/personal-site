@@ -16,6 +16,11 @@
   font-family: 'Inter', sans-serif;
 }
 
+.react-pdf__Page__canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .hero-shape {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

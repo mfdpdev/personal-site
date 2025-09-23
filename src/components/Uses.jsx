@@ -1,3 +1,8 @@
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { faList } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Uses(){
   return (
     <>
@@ -7,7 +12,10 @@ export default function Uses(){
         <div className="mt-4 gap-4 grid grid-cols-2 grid-rows-3 ">
           <div className="col-span-2">
             <div className="h-full text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
-              <h3 className="font-bold text-lg mb-2">Hardware</h3>
+              <div className="flex gap-2 items-center mb-4">
+                <FontAwesomeIcon icon={faServer} />
+                <h3 className="font-bold text-lg">Hardware</h3>
+              </div>
               <div className="space-y-2">
                 <p><span className="font-bold">Laptop</span> - Lenovo Ideapad Slim 3i</p>
                 <p><span className="font-bold">Monitor</span> - MSI PRO MP223 Series</p>
@@ -18,7 +26,10 @@ export default function Uses(){
           </div>
           <div className="col-span-2 md:col-span-1 md:row-span-2">
             <div className="h-full text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
-              <h3 className="font-bold text-lg mb-2">Dev Tools</h3>
+              <div className="flex gap-2 items-center mb-4">
+                <FontAwesomeIcon icon={faScrewdriverWrench} />
+                <h3 className="font-bold text-lg">Dev Tools</h3>
+              </div>
               <div className="space-y-2">
                 <p><span className="font-bold">IDE</span> - Vim | Visual Studio Code</p>
                 <p><span className="font-bold">Terminal</span> - Kitty</p>
@@ -31,7 +42,10 @@ export default function Uses(){
           </div>
           <div className="col-span-2 md:col-span-1 md:row-span-2 ">
             <div className="h-full text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
-              <h3 className="font-bold text-lg mb-2">Productivity</h3>
+              <div className="flex gap-2 items-center mb-4">
+                <FontAwesomeIcon icon={faList} />
+                <h3 className="font-bold text-lg">Productivity</h3>
+              </div>
               <div className="space-y-2">
                 <p><span className="font-bold">Notes / Docs</span> - Notion</p>
                 <p><span className="font-bold">Tasks</span> - </p>
