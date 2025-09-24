@@ -31,8 +31,8 @@ export default function Timeline(){
                   </div>
                 </div>
                 <div className="ml-6">
-                  <div className="text-xl font-semibold">Magang</div>
-                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
+                  <div className="text-xl font-semibold">Freelance Fullstack Web Developer</div>
+                  <div className="mt-2 text-gray-600"></div>
                   <div className="text-sm text-gray-400 mt-1">2025</div>
                 </div>
               </div>
@@ -42,9 +42,9 @@ export default function Timeline(){
                   </div>
                 </div>
                 <div className="ml-6">
-                  <div className="text-xl font-semibold">Magang</div>
-                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
-                  <div className="text-sm text-gray-400 mt-1">2025</div>
+                  <div className="text-xl font-semibold">Magang di CV Indo Digital Niaga Kediri</div>
+                  <div className="mt-2 text-gray-600">Magang sebagai backend developer</div>
+                  <div className="text-sm text-gray-400 mt-1">2024</div>
                 </div>
               </div>
               <div className="flex items-start">
@@ -53,9 +53,9 @@ export default function Timeline(){
                   </div>
                 </div>
                 <div className="ml-6">
-                  <div className="text-xl font-semibold">Magang</div>
-                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
-                  <div className="text-sm text-gray-400 mt-1">2025</div>
+                  <div className="text-xl font-semibold">Menjadi Operator Print & Copy</div>
+                  <div className="mt-2 text-gray-600"></div>
+                  <div className="text-sm text-gray-400 mt-1">2023</div>
                 </div>
               </div>
               <div className="flex items-start">
@@ -64,9 +64,9 @@ export default function Timeline(){
                   </div>
                 </div>
                 <div className="ml-6">
-                  <div className="text-xl font-semibold">Magang</div>
-                  <div className="mt-2 text-gray-600">magang sebagai backend developer</div>
-                  <div className="text-sm text-gray-400 mt-1">2025</div>
+                  <div className="text-xl font-semibold">Mengikuti Program Pelatihan Desainer Grafis Muda</div>
+                  <div className="mt-2 text-gray-600"></div>
+                  <div className="text-sm text-gray-400 mt-1">2022</div>
                 </div>
               </div>
             </div>

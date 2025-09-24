@@ -40,23 +40,23 @@ export default function Projects(){
               <img src={defaultProject} className="h-full" alt="" />
             </div>
             <div className="p-4">
-              <h1 className="text-xl font-bold">BE - Contact Management</h1>
-              <p className="text-md">Project RESTful API using Typescript</p>
+              <h1 className="text-xl font-bold">Flutter To-Do App</h1>
+              <p className="text-md">Todo App Practice is a simple and clean to-do list application built with Flutter</p>
               <ul className="mt-4 text-sm list-disc ml-4">
                 <li>
-                  CRUD Operations
+                  Add new tasks quickly.
                 </li>
                 <li>
-                  Validation with Zod
+                  Edit existing tasks.
                 </li>
                 <li>
-                  Authentication support
+                  Mark tasks as completed.
                 </li>
                 <li>
-                  Environtment-based configuration
+                  Delete tasks.
                 </li>
                 <li>
-                  Error handling
+                  Clean and minimal design.
                 </li>
               </ul>
             </div>
@@ -66,20 +66,20 @@ export default function Projects(){
               <img src={defaultProject} className="h-full" alt="" />
             </div>
             <div className="p-4">
-              <h1 className="text-xl font-bold">BE - Contact Management</h1>
-              <p className="text-md">Project RESTful API using Typescript</p>
+              <h1 className="text-xl font-bold">Konter Management</h1>
+              <p className="text-md">System for managing transactions on the Konter using laravel</p>
               <ul className="mt-4 text-sm list-disc ml-4">
                 <li>
                   CRUD Operations
                 </li>
                 <li>
-                  Validation with Zod
+                  Save traction report to pdf
                 </li>
                 <li>
                   Authentication support
                 </li>
                 <li>
-                  Environtment-based configuration
+                  Print proof of transactions via a thermal printer
                 </li>
                 <li>
                   Error handling
