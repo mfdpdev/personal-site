@@ -8,11 +8,14 @@ import docker from "../assets/icons/docker.png"
 import vscode from "../assets/icons/visual-studio-code.png"
 import notion from "../assets/icons/notion.png"
 
+import cv from "./../assets/images/cv.png"
+
 export default function CV(){
   return (
     <>
       <div className="text-slate-300 grid grid-cols-1 lg:grid-cols-2 mt-6 gap-x-16 gap-y-8">
-        <div className="h-92 w-full bg-slate-700">
+        <div className="w-full">
+          <img src={cv} alt="cv" className="w-full" />
         </div>
         <div className="space-y-8">
           <div className="space-y-4">

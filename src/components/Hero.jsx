@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import computer from "./../assets/images/computer.png"
 
 export default function Hero(){
   const text = "</Developer>"
@@ -34,7 +35,8 @@ export default function Hero(){
           </div>
         </div>
         <div className="sm:flex-1 lg:flex-2 w-full">
-          <div className='lg:w-1/2 bg-slate-700 lg:mx-auto py-12'>
+          <div className='w-full flex justify-center items-center'>
+            <img src={computer} alt='' className='lg:w-2/3' />
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import calender from "./../assets/images/calendar.png"
+
 export default function Timeline(){
   const events = [
     { date: "2010", title: "Masuk Sekolah", description: "Pendidikan dasar dimulai." },
@@ -12,8 +14,8 @@ export default function Timeline(){
         <div className="sm:flex-3">
           <h1 className="font-bold text-3xl">Test</h1>
           <p className="mt-2"> I'm deep into programming languages like JavaScript, Python, and React, and I enjoy problem-solving like a puzzle master.</p>
-          <div>
-            Test
+          <div className="flex justify-center items-center">
+            <img className="w-2/3" src={calender} alt="" />
           </div>
         </div>
         <div className="hidden lg:block lg:flex-1">
