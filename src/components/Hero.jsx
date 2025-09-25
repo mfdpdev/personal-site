@@ -1,17 +1,40 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import computer from "./../assets/images/computer.png"
+import { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
 
+gsap.registerPlugin(ScrambleTextPlugin)
 export default function Hero(){
-  const text = "</Developer>"
+  const developerText = "</Developer>";
+  const developerRef = useRef(null);
+
+  useEffect(() => {
+    const scrambleChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789<>/';
+    gsap
+      .timeline()
+      // Animasi untuk h1
+      .to(developerRef.current, {
+        duration: developerText.length * 0.5,
+        scrambleText: {
+          text: developerText,
+          chars: scrambleChars,
+          speed: 0.8,
+          delimiter: '',
+        },
+        ease: 'none',
+      }, 0);
+  }, [developerText]);
+
   return (
     <>
       <div className="flex flex-wrap mt-6 gap-8">
         <div className="sm:flex-1">
           <div className="space-y-2 text-slate-700 p-6 w-full bg-slate-300 hero-shape">
             <h3 className="text-2xl">Hello! World</h3>
-            <h1 className="font-extrabold text-4xl">I'm Muhammad Firmandani Pramoedya</h1>
-            <h2 className="text-4xl font-bold">{text}</h2>
+            <h1 className="font-extrabold text-4xl" >I'm Muhammad Firmandani Pramoedya</h1>
+            <h2 className="text-4xl font-bold" ref={developerRef}>{developerText}</h2>
             <p className="mt-6 text-md w-10/12">
               I'm passionate about software and web development, design, mobile apps, and exploring new technologies. Let's connect and create something amazing together!
             </p>

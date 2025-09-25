@@ -36,7 +36,7 @@ export default function Uses(){
                 <p><span className="font-bold">Shell</span> - Zsh</p>
                 <p><span className="font-bold">Browser</span> - Brave</p>
                 <p><span className="font-bold">Design</span> - Figma | Adobe Photoshop | Corel Draw</p>
-                <p><span className="font-bold">System Operation</span> - Linux (Arch)</p>
+                <p><span className="font-bold">System Operation</span> - Linux (Arch) | Windows (ringkih)</p>
               </div>
             </div>
           </div>
