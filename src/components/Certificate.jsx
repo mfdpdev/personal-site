@@ -1,5 +1,6 @@
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router";
 
 export default function Certificate(){
   return (
@@ -10,7 +11,7 @@ export default function Certificate(){
         <p className="text-base">A collection of certifications that showcase my knowlage in web, mobile development, and IT</p>
         <div className="mt-8 gap-5 grid grid grid-cols-1 lg:grid-cols-2">
 
-          <div className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
+          <Link to={`/certificates/${123}`}  className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
             <div className="">
               <div className="flex flex-wrap gap-y-2 justify-between mb-2 items-center">
                 <h1 className="text-lg font-bold">
@@ -36,7 +37,7 @@ export default function Certificate(){
                 </button>
               </div>
             </div>
-          </div>
+          </Link>
 
           <div className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
             <div className="">
