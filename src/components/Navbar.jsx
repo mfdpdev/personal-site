@@ -19,7 +19,7 @@ export default function Navbar(){
   }
   return (
     <>
-      <nav className="fixed z-999 h-auto bg-slate-900 w-full flex justify-center">
+      <nav className={`animate-slideIn fixed z-999 h-auto bg-slate-900 w-full flex justify-center`}>
         <div className="fix w-full max-w-7xl bg-slate-900 text-slate-300 flex justify-between items-center px-12 py-6">
           <Link to="/" className="font-bold px-3 py-1 border-1 rounded-lg">
             Mfdp
