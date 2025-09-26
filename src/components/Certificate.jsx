@@ -1,15 +1,27 @@
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router";
 
 export default function Certificate(){
+  const { ref: titleRef, inView: titleInView } = useInView({
+    threshold: 1,
+    triggerOnce: true,
+  })
+  const { ref: certificatesRef, inView: certificatesInView } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  })
   return (
     <>
       <div className="mt-12 text-slate-300 text-center">
-        <h3 className="text-2xl font-bold text-red-500">Certificates</h3>
-        <h1 className="text-4xl font-bold mt-4">Verified Skills & Expertise</h1>
-        <p className="text-base">A collection of certifications that showcase my knowlage in web, mobile development, and IT</p>
-        <div className="mt-8 gap-5 grid grid grid-cols-1 lg:grid-cols-2">
+        <div ref={titleRef} className={`transform transition duration-[1s] ${titleInView ? "translate-y-0 opacity-100" : "-translate-y-1/2 opacity-0"}`}>
+          <h3 className="text-2xl font-bold text-red-500">Certificates</h3>
+          <h1 className="text-4xl font-bold mt-4">Verified Skills & Expertise</h1>
+          <p className="text-base">A collection of certifications that showcase my knowlage in web, mobile development, and IT</p>
+        </div>
+
+        <div ref={certificatesRef} className={`mt-8 gap-5 grid grid grid-cols-1 lg:grid-cols-2 transform transition duration-[1s] ${certificatesInView ? "translate-y-0 opacity-100" : "translate-y-1/2 opacity-0"}`}>
 
           <Link to={`/certificates/${123}`}  className="relative bottom-0 hover:bottom-2 transition-all duration-700  text-start p-4 bg-slate-800 bg-opacity-80 rounded-xl border border-slate-700">
             <div className="">

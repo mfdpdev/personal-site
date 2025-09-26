@@ -3,7 +3,7 @@ import defaultProject from "./../assets/images/default.png"
 
 export default function Projects(){
   const { ref: titleRef, inView: titleInView } = useInView({
-    threshold: 0.01,
+    threshold: 1,
     triggerOnce: true,
   })
   const { ref: projectsRef, inView: projectsInView } = useInView({

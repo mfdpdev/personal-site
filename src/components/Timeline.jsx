@@ -9,11 +9,11 @@ export default function Timeline(){
     { date: "2030", title: "Karier Maju", description: "Menjadi Senior Developer." },
   ];
   const { ref: textRef, inView: textInView } = useInView({
-    threshold: 0.01,
+    threshold: 0.5,
     triggerOnce: true,
   })
   const { ref: timelineRef, inView: timelineInView } = useInView({
-    threshold: 0.01,
+    threshold: 0.3,
     triggerOnce: true,
   })
   return (
