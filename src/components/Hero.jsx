@@ -47,7 +47,7 @@ export default function Hero(){
         <div className="sm:flex-1">
           <div ref={heroRef} className={`${heroInView ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"} transition-all duration-[1s] space-y-2 text-slate-700 p-6 w-full bg-slate-300 hero-shape`}>
             <h3 className="text-2xl">Hello! World</h3>
-            <h1 className="font-extrabold text-4xl" >I'm Muhammad Firmandani Pramoedya</h1>
+            <h1 className="font-extrabold text-3xl" >I'm Muhammad Firmandani Pramoedya</h1>
             <h2 className="text-4xl font-bold" ref={developerRef}>{developerText}</h2>
             <p className="mt-6 text-md w-10/12">
               I'm passionate about software and web development, design, mobile apps, and exploring new technologies. Let's connect and create something amazing together!
