@@ -29,7 +29,7 @@ export default function Timeline(){
         </div>
         <div className="hidden lg:block lg:flex-1">
         </div>
-        <div ref={timelineRef} className={`sm:flex-3 ${timelineInView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"} transition-all duration-[1s]`}>
+        <div ref={timelineRef} className={`transform sm:flex-3 ${timelineInView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"} transition duration-[1s]`}>
           <div className="relative -z-1">
             <div className="left-[7px] absolute border-l-1 border-r-1 border-slate-100 h-full">
             </div>

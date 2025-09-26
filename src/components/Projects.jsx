@@ -3,7 +3,7 @@ import defaultProject from "./../assets/images/default.png"
 export default function Projects(){
   return (
     <>
-      <div className="mt-60 text-slate-300">
+      <div className="mt-72 text-slate-300">
         <div className="w-2/3 mx-auto">
           <h3 className="text-2xl font-bold text-red-500 text-center">Projects Showcase</h3>
           <h1 className="text-4xl font-bold mt-4 text-center">Innovative Web & Application Development Solutions</h1>
