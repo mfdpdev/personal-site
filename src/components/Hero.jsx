@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import computer from "./../assets/images/computer.png"
 import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
@@ -73,7 +72,6 @@ export default function Hero(){
         </div>
         <div className="sm:flex-1 lg:flex-2 w-full">
           <div className='w-full flex justify-center items-center'>
-            <img src={computer} alt='' className='lg:w-2/3' />
           </div>
         </div>
       </div>

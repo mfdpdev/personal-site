@@ -1,5 +1,4 @@
 import { useInView } from "react-intersection-observer";
-import calender from "./../assets/images/calendar.png"
 
 export default function Timeline(){
   const events = [
@@ -24,7 +23,6 @@ export default function Timeline(){
           <h1 className="font-bold text-3xl">Developer with a Vim Addiction</h1>
           <p className="mt-2">I'm a developer who enjoys working with both on the frontend and on the backend. I love learning new things and building stuff that actually works (on most browsers). And yes — I use Vim. Not because it's easy, but because exiting it is the real coding challenge.</p>
           <div className="flex justify-center items-center">
-            <img className="w-2/3 lg:w-3/6" src={calender} alt="" />
           </div>
         </div>
         <div className="hidden lg:block lg:flex-1">
