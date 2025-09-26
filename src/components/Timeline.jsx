@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import calender from "./../assets/images/calendar.png"
 
 export default function Timeline(){
@@ -8,19 +9,27 @@ export default function Timeline(){
     { date: "2025", title: "Mencari Pekerjaan", description: "Mencari pekerjaan pertama." },
     { date: "2030", title: "Karier Maju", description: "Menjadi Senior Developer." },
   ];
+  const { ref: textRef, inView: textInView } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  })
+  const { ref: timelineRef, inView: timelineInView } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  })
   return (
     <>
       <div className="mt-12 flex justify-start flex-wrap gap-6 text-slate-300">
-        <div className="sm:flex-3">
-          <h1 className="font-bold text-3xl">Test</h1>
-          <p className="mt-2"> I'm deep into programming languages like JavaScript, Python, and React, and I enjoy problem-solving like a puzzle master.</p>
+        <div ref={textRef} className={`sm:flex-3 ${textInView ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"} transition-all duration-[1s]`}>
+          <h1 className="font-bold text-3xl">Developer with a Vim Addiction</h1>
+          <p className="mt-2">I'm a developer who enjoys working with both on the frontend and on the backend. I love learning new things and building stuff that actually works (on most browsers). And yes — I use Vim. Not because it's easy, but because exiting it is the real coding challenge.</p>
           <div className="flex justify-center items-center">
-            <img className="w-2/3" src={calender} alt="" />
+            <img className="w-2/3 lg:w-3/6" src={calender} alt="" />
           </div>
         </div>
         <div className="hidden lg:block lg:flex-1">
         </div>
-        <div className="sm:flex-3">
+        <div ref={timelineRef} className={`sm:flex-3 ${timelineInView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"} transition-all duration-[1s]`}>
           <div className="relative -z-1">
             <div className="left-[7px] absolute border-l-1 border-r-1 border-slate-100 h-full">
             </div>
