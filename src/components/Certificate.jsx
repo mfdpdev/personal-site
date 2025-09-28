@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export default function Certificate(){
   const { ref: titleRef, inView: titleInView } = useInView({
-    threshold: 1,
+    threshold: 0.01,
     triggerOnce: true,
   })
   const { ref: certificatesRef, inView: certificatesInView } = useInView({
@@ -14,7 +14,7 @@ export default function Certificate(){
   })
   return (
     <>
-      <div className="mt-12 text-slate-300 text-center">
+      <div className="mt-12 text-slate-300 text-center overflow-hidden">
         <div ref={titleRef} className={`transform transition duration-[1s] ${titleInView ? "translate-y-0 opacity-100" : "-translate-y-1/2 opacity-0"}`}>
           <h3 className="text-2xl font-bold text-red-500">Certificates</h3>
           <h1 className="text-4xl font-bold mt-4">Verified Skills & Expertise</h1>

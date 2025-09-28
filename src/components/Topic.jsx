@@ -1,9 +1,21 @@
+import { useInView } from "react-intersection-observer"
+
 export default function Topic(){
+
+  const { ref: titleRef, inView: titleInView } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  })
+  const { ref: topicRef, inView: topicInView } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
+  })
+
   return (
     <>
       <div className="flex flex-wrap text-slate-300 mt-12 gap-y-6 justify-between max-w-3xl mx-auto">
         <div className="grid gap-y-2 md:w-4/6">
-          <div className="">
+          <div className={`transform transition duration-[1s] ${titleInView ? "translate-x-0 opacity-100" : ""}`}>
             <p>Let's have conversation in :</p>
             <div className="flex flex-wrap gap-4 my-6">
               <div className="w-fit px-5 py-3 rounded-xl border border-slate-700">Bahasa Indonesia</div>
