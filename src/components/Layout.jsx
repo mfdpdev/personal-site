@@ -6,7 +6,7 @@ export default function Layout(){
   return (
     <>
       <Navbar />
-      <div className='flex flex-col mx-auto justify-between px-6 h-dvh max-w-7xl'>
+      <div className='flex flex-col mx-auto justify-between px-6 min-h-dvh max-w-7xl'>
         <main className='pt-20'>
           <Outlet />
         </main>
