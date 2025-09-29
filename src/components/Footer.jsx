@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 export default function Footer(){
   const { ref, inView } = useInView({
-    threshold: 0.01,
+    threshold: 0.5,
     triggerOnce: true,
   })
   return (

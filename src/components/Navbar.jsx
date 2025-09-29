@@ -37,14 +37,14 @@ export default function Navbar(){
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400" >
+                <Link to="/projects" className="hover:text-blue-400" >
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400" >
-                  Uses
-                </a>
+                <Link to="/certificates" className="hover:text-blue-400" >
+                  Certificates
+                </Link>
               </li>
             </ul>
           </div>

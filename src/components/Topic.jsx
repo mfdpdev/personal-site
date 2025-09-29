@@ -26,8 +26,8 @@ export default function Topic(){
             <h1 className="md:order-first text-3xl font-bold">Here's five topics that I can talk about, for 15 minutes with zero preparation:</h1>
           </div>
         </div>
-        <div ref={topicRef} className={`transform transition duration-[1s] ${topicInView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"}`}>
-          <ol>
+        <div ref={topicRef}>
+          <ol  className={`transform transition duration-[1s] ${topicInView ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"}`}>
             <li>1. Programming</li>
             <li>2. Web & Mobile Developer</li>
             <li>3. IT</li>

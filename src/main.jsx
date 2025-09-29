@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import Certificates from './pages/Certificates'
 import CV from './pages/CV'
+import Projects from './pages/Projects'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -15,7 +16,12 @@ createRoot(document.getElementById('root')).render(
           <Route path='/' element={<Home />} />
           <Route path='/curriculum-vitae' element={<CV />} />
           <Route path='/certificates'>
+            <Route path='' element={<Certificates />} />
             <Route path=':id' element={<Certificates />} />
+          </Route>
+          <Route path='/projects'>
+            <Route path='' element={<Projects />} />
+            <Route path=':name' element={<Projects />} />
           </Route>
         </Route>
       </Routes>
